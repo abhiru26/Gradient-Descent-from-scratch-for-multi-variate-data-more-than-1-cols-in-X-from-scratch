@@ -5,8 +5,7 @@ class Gradient_descent:
     This is a class that helps to analyse the Gradient Descent Values for AI. It has two methods, One for gredient descent values that return as a dictionary and the Second one that predict the values of the dataset. For this two methods, required to create dataset when using the methods.
 
 
-    Author ----> Sayan Roy
-    Date ------> 27 July, 2020
+   
     '''
     import numpy as np
     import pandas as pd
@@ -42,11 +41,6 @@ class Gradient_descent:
 
         epochs_value -----> How many iterations you want for the gradient descent. eg. epochs_value = 200
         learning_rate -----> The value of the learning rate for gradient descent. eg. learning_rate = 0.001
-
-
-
-        Author ----> Sayan Roy
-        Date -----> 27 July, 2020
 
         '''
         
@@ -182,12 +176,6 @@ class Gradient_descent:
         Arguments for prediction based on the created dataset ------------->
 
         predicted_values ----> It takes 2-D array. eg. predicted_values = [[1,1,1]]
-
-
-        Author ----> Sayan Roy
-
-        Date -----> 27 July, 2020
-
 
         '''
 
